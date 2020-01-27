@@ -1,0 +1,9 @@
+{
+    "base_url": "http://localhost:2020/"
+  , "methods" : {
+      "search" : {
+          "Multi" : { "resource": "public/titles", "method": "get" },
+          "Provider" : { "resource": "public/providers", "method": "get" }
+        }
+    }
+}
