@@ -3,7 +3,8 @@
   , "methods" : {
       "search" : {
           "Multi" : { "resource": "public/titles", "method": "get" },
-          "Provider" : { "resource": "public/providers", "method": "get" }
+          "Provider" : { "resource": "public/providers", "method": "get" },
+          "Genres" : { "resource": "public/genres", "method": "get" }
         }
     }
 }
